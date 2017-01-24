@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Code Challenge OMDB</string>
+    <string name="title_movie_detail">movie Detail</string>
+
+
+    <string name="url">http://www.omdbapi.com</string>
+    <string name="url_title_query">%1$s/?s=%2$s&amp;r=json</string>
+    <string name="url_id_query">%1$s/?i=%2$s&amp;r=json</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Type movie title</string>
+    <string name="erro">Error</string>
+    <string name="mensagem">Information</string>
+    <string name="aviso">Advice</string>
+    <string name="ok">OK</string>
+</resources>

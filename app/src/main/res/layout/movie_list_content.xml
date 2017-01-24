@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/card_view_corner"
+    android:layout_margin="@dimen/card_view_margin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <br.com.forusers.heinscomponents.GlideImageView
+            android:id="@+id/posterGlideImageView"
+            android:layout_width="@dimen/movie_list_content_image_size"
+            android:layout_height="@dimen/movie_list_content_image_size"
+            android:layout_margin="@dimen/movie_list_content_margin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/movie_list_content_margin"
+                android:lines="1"
+                android:maxLines="1"
+                android:layout_marginBottom="@dimen/movie_list_content_margin"
+                android:textSize="@dimen/movie_list_content_title_text_size"
+                android:textColor="@color/primaryText"/>
+
+            <TextView
+                android:id="@+id/year"
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/movie_list_content_margin"
+                android:lines="1"
+                android:maxLines="1"
+                android:textSize="@dimen/movie_list_content_year_text_size"
+                android:textColor="@color/secondaryText"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
